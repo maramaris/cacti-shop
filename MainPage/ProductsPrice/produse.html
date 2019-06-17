@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Produse</title>
+		<link rel="icon" href="ic.jpg">
+<style>
+/* unvisited link */
+a:link {
+  color: #4CAF50;
+}
+
+/* visited link */
+a:visited {
+  color: #90ee90;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #90ee90;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 15%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+ 
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #90EE90;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #90EE90;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c2f6c2;
+  color: #65e765;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+</style>
+		</head>
+		<body>
+		
+		<div class="topnav">
+			<a  href="..\MainPage.html"> &#8962 Home</a>
+			<a class="active" href="..\ProductsPrice\produse.html">Produse</a>
+			<a href="..\intretinere\intretinere.html">Intretinere</a>
+			<a href="..\contact\contact.html"> &#9742 Contact</a>
+			<a href="..\SQL Tab\tabele.html">Tabele</a>
+			
+		</div>
+		
+			<a href="..\MainPage.html"> &#8592 Inapoi la Home Page </a>
+			<br>
+			<h3>Produse</h3>
+				<div class="row">
+				<div class="column">
+				<div class="card">
+  <img src="aloevera2.jpg" alt="Aloe Vera" height="130" width="100">
+  <h1>Aloe Vera</h1>
+  <p class="price">55 LEI</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+  <img src="suculentamica1.jpg" alt="Suculenta mica" height="130" width="100">
+  <h1>Suculenta </h1>
+  <p class="price">20 LEI</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+  <img src="zambila.jpg" alt="Zambila" height="130" width="100">
+  <h1>Zambila</h1>
+  <p class="price">17 LEI</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+  <img src="citrus.jpg" alt="Citrus" height="130" width="100">
+  <h1>Citrus</h1>
+  <p class="price">99 LEI</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+  <img src="cactusmic2.jpg" alt="Cactus" height="130" width="100">
+  <h1>Cactus</h1>
+  <p class="price">15 LEI</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+</div>
+											</body>
+										</html>

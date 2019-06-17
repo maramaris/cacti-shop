@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<link rel="icon" href="ic.jpg">
+		<title>Contact</title>
+<style>
+.button {
+  background-color: #90EE90; 
+  border: none;
+  color: white
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 50%;}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #90EE90;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c2f6c2;
+  color: #65e765;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* unvisited link */
+a:link {
+  color: #4CAF50;
+}
+
+/* visited link */
+a:visited {
+  color: #90ee90;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #90ee90;
+}
+
+input[type=text]:focus {
+  background-color: #ebffeb;
+}
+textarea:focus {
+  background-color: #ebffeb;
+}
+
+input[type=text], textarea {
+  border: 2px solid #90ee90;
+  border-radius: 4px;
+}
+
+</style>
+		</head>
+		<body>
+		<div class="topnav">
+			<a  href="..\MainPage.html"> &#8962 Home</a>
+			<a href="..\ProductsPrice\produse.html">Produse</a>
+			<a href="..\intretinere\intretinere.html">Intretinere</a>
+			<a class="active" href="..\contact\contact.html"> &#9742 Contact</a>
+			<a href="..\SQL Tab\tabele.html">Tabele</a>
+			
+		</div>
+			<br>
+			
+			<a href="..\MainPage.html"> &#8592 Inapoi la Home Page </a>
+			
+			<br>
+			<div>
+			<h3>Contact</h3>
+		<form action="/action_page.php">
+		  <label for="FirstName">Prenume</label>
+ <br>
+<input type="text" name="FirstName" placeholder="Sam"><br>
+<label for="LastName">Nume</label> <br>
+<input type="text" name="LastName" placeholder="Smith"><br>
+<label for="Email">Email</label> <br>
+<input type="text" name="Email" placeholder="abc@gmail.com"><br>
+<label for="Subiect">Subiect</label> <br>
+<input type="text" name="Subiect" ><br>
+<label for="Mesaj">Mesaj</label> <br>
+<textarea name="Mesaj"> </textarea> <br>
+
+<button class="button button1"type="button" onclick="alert('Mesajul dumneavoastra a a fost trimis.')">Trimite</button>
+
+</form>
+</div>
+		
+											</body>
+										</html>
